@@ -1,11 +1,16 @@
 * {
-    font-family:"Verdana", "DejaVu-Sans", sans-serif;
+    font-family: "Verdana", "DejaVu-Sans", sans-serif;
 }
 
 .odd {
-    background-color:lightcoral;
+    background-color: lightcoral;
 }
 
 .cooler {
     font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
 }
