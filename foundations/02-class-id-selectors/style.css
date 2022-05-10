@@ -1,3 +1,7 @@
 * {
     font-family:"Verdana", "DejaVu-Sans", sans-serif;
 }
+
+.odd {
+    background-color:lightcoral;
+}
