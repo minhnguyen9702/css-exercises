@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -12,6 +13,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
 
 ul {
@@ -30,11 +32,17 @@ a {
 .right-links ul {
   display:flex;
   justify-content: space-around;
+  gap:10px;
+  margin: 0;
+  padding: 0;
 }
 
 
 .left-links ul {
   display:flex;
   justify-content: space-around;
+  gap:10px;
+  margin: 0;
+  padding: 0;
 }
 
