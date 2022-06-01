@@ -53,14 +53,7 @@ ul {
   gap: 16px;
 }
 
-.left {
-display:flex;
-align-items: center;
-gap: 16px;
-margin: 8px;
-}
-
-.right {
+.half {
 display:flex;
 align-items: center;
 gap: 16px;
