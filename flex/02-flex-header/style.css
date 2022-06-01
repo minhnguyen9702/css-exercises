@@ -29,16 +29,7 @@ a {
   text-decoration: none;
 }
 
-.right-links ul {
-  display:flex;
-  justify-content: space-around;
-  gap:10px;
-  margin: 0;
-  padding: 0;
-}
-
-
-.left-links ul {
+ul {
   display:flex;
   justify-content: space-around;
   gap:10px;
