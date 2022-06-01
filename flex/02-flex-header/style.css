@@ -26,3 +26,12 @@ a {
   text-decoration: none;
 }
 
+.right-links ul {
+  display:flex;
+  justify-content: space-around;
+}
+
+.left-links ul {
+  display:flex;
+  justify-content: space-around;
+}
