@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 4fr;
+}
+
+.container div {
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+}
+
+.header {
+  background-color: #393f4d;
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+<<<<<<< HEAD:grid/03-grid-layout-3/style.css
+.logo {
+  grid-column: 1 / 2;
+  text-align: left;
+}
+
+.menu {
+  margin-top: auto;
+  margin-bottom: auto;
+  grid-column: 2 / 3;
+}
+
+.menu ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+=======
+>>>>>>> upstream/main:intermediate-html-css/advanced-grid/02-holy-grail-mockup/style.css
+.menu ul,
+.menu li {
+  font-size: 16px;
+}
+
+.sidebar {
+<<<<<<< HEAD:grid/03-grid-layout-3/style.css
+  background-color: #FF7755;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  display: grid;
+  gap: 40px;
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main:intermediate-html-css/advanced-grid/02-holy-grail-mockup/style.css
+}
+
+.sidebar .photo {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 10px;
+}
+
+<<<<<<< HEAD:grid/03-grid-layout-3/style.css
+.photo  {
+  display: grid;
+  place-items: center;
+}
+=======
+>>>>>>> upstream/main:intermediate-html-css/advanced-grid/02-holy-grail-mockup/style.css
+
+.sidebar .side-content {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  display: grid;
+  place-items: center;
+}
+
+.nav {
+<<<<<<< HEAD:grid/03-grid-layout-3/style.css
+  background-color: #FF7755;
+  grid-column: 2/ 3;
+}
+
+.nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+=======
+  background-color: #C50208;
+>>>>>>> upstream/main:intermediate-html-css/advanced-grid/02-holy-grail-mockup/style.css
+}
+
+.nav ul li {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.article {
+  background-color: #bccbde;
+  grid-column: 2 / 3;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.article p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.article .card {
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  height: 200px;
+}
+
+.card p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.card .title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #393f4d;
+  grid-column: 1 / 3;
+}
+
+.footer p {
+  font-size: 13px;
+  font-weight: normal;
+}
